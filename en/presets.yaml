@@ -134,6 +134,7 @@ default:
   cns-host: notifications.yandexcloud.net
   cns-name: Cloud Notification Service
   cns-short-name: CNS
+  code-interpreter: Code Interpreter
   coi: Container Optimized Image
   compute-full-name: Yandex Compute Cloud
   compute-guest-agent-bucket: yandexcloud-guestagent-updater
@@ -4035,6 +4036,8 @@ default:
         button_delete: Delete
         button_save: Save
         label_delete-now: Delete now
+      fileinput:
+        button_attach-file: Attach file
       forms:
         label_value: Value
       helpfeedbackdialog:
@@ -4433,6 +4436,7 @@ default:
           saml_field_login: Login URL
           saml_field_logout: Logout URL
           saml_field_metadata: Metadata URL
+          saml_field_request_signing_enabled: Only accept signed requests
           secret_section_add_new_secret_action: Add secret
           secret_section_title: App secrets
       attributes:
@@ -6667,6 +6671,7 @@ default:
         label_autoscale-section: Autoscale settings
         label_configuration-section: Configuration
         label_instances-title: Instances list
+        runners_popup-confirm_button_delete: Delete
         switch_instances: Instances
         title_backups: Backups
         title_migration: Migration
